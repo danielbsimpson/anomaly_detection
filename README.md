@@ -64,7 +64,7 @@ Each model was evaluated using a confusion matrix against the known cases of fra
 ![](Images/SVM_cc.JPG)
 
 ## Supervised models on the labeled credit card data
-In the final part of this project the following models were used for training/testing:
+In the final part of this project the following models were used on the credit card data set:
 * Logistic Regression
 * K-nearest neighbor
 * Supprt Vector Machine
@@ -72,8 +72,22 @@ In the final part of this project the following models were used for training/te
 * Neural Network
 * XGBoost
 
-The models are accessed using accuracy, precision, recall and F1 score. The best model was then selected for Hyperparameter tuning using a grid search algorithm. The tuning was conducted twice, once optimizing for the Precision score, and a second time optimizing for the F1 score.
+The models are accessed using accuracy, precision, recall and F1 score.
+![](/Images/Supervised_1.JPG)
+![](/Supervised_2.JPG)
+
+The best model was then selected for Hyperparameter tuning using a grid search algorithm. As XGBoost had performed the best, it was used for hyperparameter tuning. The hyperparameters that were used for the Grid Search algorithm can be seen below:
+![](/Images/hypertuning.JPG)
+
+K-fold cross validation was used for train/testing and the number of folds was 5 (illustrated above).
+
+The tuning was conducted twice, once optimizing for the Precision score, and a second time optimizing for the F1 score.
+The Results are shown below:
+
+![](Images/results.JPG)
 
 The conclusion of the project provides an overview of which models should be used when no labeled data is available, when only a limited amount of data is available, and when a substantial amount of labeled data is collected.
+
+![](/Images/conclusion.JPG)
 
 Please see the Jupyter Notebooks for further information.
