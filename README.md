@@ -5,6 +5,10 @@ This project was designed to experiment with various machine learning applicatio
 * 2. Unsupervised models on labeled credit card data
 * 3. Supervised models on the labeled credit card data.
 
+The first part of the project explores Unsupervised Techniques on various anomaly data sets available online.
+
+![](/Images/Unsupervised_Design1.JPG)
+
 ![](/Images/Project_Design.JPG)
 
 ## Unsupervised Techniques
