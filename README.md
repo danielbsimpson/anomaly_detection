@@ -5,6 +5,8 @@ This project was designed to experiment with various machine learning applicatio
 * 2. Unsupervised models on labeled credit card data
 * 3. Supervised models on the labeled credit card data.
 
+[! Project Design](Images/Project_Design.JPG)
+
 ## Unsupervised Techniques
 For this part of the project 4 datasets from the NAB (Numenta Anomaly Benchmark) were used to experiement with the unsupervised machine learning algorithms
 The algorithms tested are:
