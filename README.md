@@ -56,7 +56,7 @@ Below is an image detailing the general overview of this next stage of the proje
 
 For this part of the project a dataset of credit card transactions with known fraud cases labeled is used. The data contains amount of the purchase, along with 28 additional normalized features. The previous algorithms are then applied to the data, to identify which algorithm might be the most useful in the early stages of fraud detection.
 
-An outlier fraction of 0.001, 0.02, 0.01 and 0.1 were used/
+An outlier fraction of 0.001, 0.02, 0.01 and 0.1 were used.
 
 Each model was evaluated using a confusion matrix against the known cases of fraud. This was simply used to help identify which algorithm could be useful when the problem is completely unsupervised. The idea was to identify as many cases of fraud as possible, without overwhelming the fraud department with false flag instances. As an example, the use of PCA and K-means and the SVM models can be seen below:
 ![](/Images/k-means_cc.JPG)
